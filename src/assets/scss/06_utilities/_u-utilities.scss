@@ -1,0 +1,68 @@
+@import './00_base/mixins.scss';
+
+.u-padding-1 {
+    padding: 1.5rem;
+}
+
+.u-padding-left-1 {
+    padding-left: 1rem;
+}
+
+.u-padding-right-1 {
+    padding-right: 1rem;
+}
+
+.u-padding-top-1 {
+    padding-top: 1rem;
+}
+
+.u-padding-bottom-1 {
+    padding-bottom: 1rem;
+}
+
+.u-position-relative {
+    position: relative;
+}
+
+.u-position-absolute {
+    position: absolute;
+}
+
+.u-float-left {
+    float: left;
+}
+
+.u-float-right {
+    float: right;
+}
+
+.u-text-italic {
+    font-style: italic;
+}
+
+.u-text-center {
+    text-align: center;
+}
+.u-text-primary {
+    color: $alm-color-primary;
+}
+
+.u-border-radius {
+    @include border-radius(5px);
+}
+
+.u-border {
+    border: 1px solid #e1e1e1;
+}
+
+.u-border-0 {
+    border: 0;
+}
+
+.u-width-100 {
+    width: 100%;
+}
+
+.u-display-none {
+    display: none;
+}

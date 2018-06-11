@@ -1,0 +1,14 @@
+.o-donate-block {
+    width: calc(100% - 15px);
+    margin: auto;
+    position: relative;
+    @media (min-width: 576px) {
+        max-width: 370px;
+    }
+    .o-donate-block__inner {
+        &--bottom {
+            padding-top: 1rem;
+        }
+    }
+}
+

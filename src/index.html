@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>ALM donate app</title>
+</head>
+<body>
+  <div class="o-donate-block">
+    
+    <div class="m-tooltip">
+      <strong class="a-tooltip-value">$167</strong>
+      <span class="a-tooltip-text">still needed for this project</span>
+    </div>
+
+    <div class="o-donate-block__inner">
+      <div id="progress" class="m-progress-bar">
+        <span class="a-progress-bar-value"></span>
+      </div>
+    </div>
+    
+    <div class="o-donate-block__inner u-border u-padding-1">
+      <div class="m-inner-content">
+        <p class="u-padding-bottom-1">
+          <strong class="u-text-primary">Only <span class="days-number">3</span> days left</strong> to fund this project
+        </p>
+        <p>
+          Join the <strong class="a-other-donors">42</strong> other donors who have already supported this project. Every dollar helps.
+        </p>
+      </div>
+      <div id="alert" class="m-alert u-display-none">
+        <p>Thanks for money!</p>
+      </div>
+      <form id="form" class="o-donateForm">
+        <div class="m-row">
+          <div class="m-row--col-50 u-padding-right-1">
+            <div class="m-input-group">
+              <div class="m-input-group--prepend">
+                <span class="a-input-group-icon" id="basic-addon1">$</span>
+                <input id="donate-field" type="number" class="a-input" name="donate-field" step="0.01" min="0" placeholder="50" required>
+              </div>
+            </div>
+          </div>
+          <div class="m-row--col-50">
+              <button type="submit" class="a-button a-button--cta u-width-100">Give now</button>
+            </div>
+        </div>
+        <p>
+          <a href="#" id="info" class="u-text-italic">Why give $50?</a>
+        </p>
+        <div id="collapse" class="m-collapse u-display-none">
+          <div class="m-collapse-body">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+              Curabitur vulputate interdum purus, ut tincidunt nisl convallis non. 
+              Aliquam ut metus vitae neque euismod facilisis. 
+            </p>
+            <button type="button" class="a-button u-f-right">Close</button>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <div class="o-donate-block__inner--bottom u-border-0">
+      <div class="m-row">
+          <div class="m-row--col-50 u-padding-right-1">
+              <button id="save" class="a-button u-width-100">Save for leter</button>
+          </div>
+          <div class="m-row--col-50  u-padding-left-1">
+              <button id="share" class="a-button u-width-100">Tell your friends</button>
+          </div>
+        </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,32 @@
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+    }
+
+body,
+html {
+    height: 100%;
+}
+
+body {
+    display: table-cell; // ie9
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1rem;
+    font-family: 'Merriweather Sans', sans-serif;
+    background-color: $alm-bg-body;
+    color: $alm-color-body;
+}
+
+a {
+    text-decoration: none;
+    color: $alm-color-link;
+}

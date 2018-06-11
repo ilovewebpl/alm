@@ -1,0 +1,46 @@
+@import './00_base/mixins.scss';
+
+.a-button {
+    padding: 0.75rem 1rem;
+    font-weight: 700;
+    background: #fafafa;
+    border: 1px solid #dcdcdc;
+    @include box-shadow(0, 1px, 0,#dcdcdc);
+    @extend .u-border-radius;
+    &--cta {
+        font-size: 1.25rem;
+        background: $alm-color-cta;
+        color: white;
+        border-color: #13b423;
+    }
+}
+
+.a-input {
+    padding: 0.5rem 1rem;
+    width: 100%;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    color: #424242;
+    border: 1px solid #ced4da;
+    @extend .u-border-radius;
+    &-group-icon {
+        display: table-cell; // ie9
+        display: -ms-flexbox;
+        display: flex;
+        align-items: center;
+        padding: 1rem 0.5rem;
+        border: 1px solid #ced4da;
+        border-right: 0;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+}
+
+.a-progress-bar-value {
+    background-color: $alm-color-primary;
+    display: inline-block;
+    height: 100%;
+    max-width: 100%;
+    @include transition(width,500ms,ease);
+  }
+  
